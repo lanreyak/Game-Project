@@ -1,0 +1,31 @@
+if random number is <= Accuracy:
+
+getKnightDamage = get random number between 1 and 5
+
+knightDamage = subtract warlordArmor from getKnightDamage
+
+if knightDamage < 0:
+    knightDamage == 0
+
+subtract knightDamage from GrimfangHP
+
+print(f"The warlord Grimfang takes {knightDamage} damage from Valor!")
+
+if GrimfangHP < 0:
+    print("Victory! Valor the Knight has slain Grimfang the Warlord. Your legend will echo through the ages.")
+
+if random number is <= GrimfangAccuracy:
+
+getWarlordDamage = get random number between 1 and 7
+
+warlordDamage = subtract knightArmor from getWarlordDamage
+
+if warlordDamage < 0:
+    warlordDamage == 0
+
+subtract warlordDamage from ValorHP
+
+print(f"Valor takes {warlordDamage} damage from Grimfang the Warlord!")
+
+if ValorHP < 0:
+    print("Defeat! The kingdom mourns as Valor the Knight falls in battle.")
